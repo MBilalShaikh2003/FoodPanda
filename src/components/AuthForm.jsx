@@ -2,7 +2,12 @@ import React from 'react'
 
 const AuthForm = () => {
   return (
-    <div>AuthForm</div>
+    <div>AuthForm
+
+      <input type="text" />
+
+      <button type='submit'>submit</button>
+    </div>
   )
 }
 
