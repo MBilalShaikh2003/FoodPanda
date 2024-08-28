@@ -4,9 +4,20 @@ const AuthForm = () => {
   return (
     <div>AuthForm
 
-      <input type="text" />
+      <form>
+        <div>
+          <label>Email:</label>
+          <input type='email'/>
+        </div>
+        <div>
+          <label>PassWord:</label>
+          <input type='password'/>
+        </div>
+        <button>
+          Submit
+        </button>
 
-      <button type='submit'>submit</button>
+      </form>
     </div>
   )
 }
