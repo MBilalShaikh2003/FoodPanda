@@ -12,7 +12,7 @@ function Home(props) {
       <Header/>
       <Body/>
 
-    <AuthForm/>
+    {/* <AuthForm/> */}
     </div>
   );
 }
