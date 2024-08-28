@@ -6,7 +6,7 @@ import Image from 'next/image'
 const Header = () => {
   return (
     <div>
-        <header className="flex justify-between items-center p-4 bg-red-500 text-black  bg-[#ffffff]">
+        <header className="flex justify-between items-center p-4 bg-white-500 text-black  bg-[#ffffff]">
             <div className="flex items-center">
                 <Image src={foodpandalogo} alt="Foodpanda Logo" className="h-10 w-10" />
                 <span className=' text-[#ff2b85]'>foodpanda</span>
