@@ -1,7 +1,7 @@
 import React from 'react'
 import foodpandalogo from '/public/logo.png'
 import cart from '/public/shopping-bag.png'
-import Image from 'next/image'
+import Image from "next/image"
 
 const Header = () => {
   return (
@@ -9,7 +9,7 @@ const Header = () => {
         <header className="flex justify-between items-center p-4 bg-white-500 text-black  bg-[#ffffff]">
             <div className="flex items-center">
                 <Image src={foodpandalogo} alt="Foodpanda Logo" className="h-10 w-10" />
-                <span className=' text-[#ff2b85]'>foodpanda</span>
+                <span className=' text-[#ff2b85] text-[24px] font-bold'>foodpanda</span>
             </div>
 
             {/* <div className="flex items-center space-x-2">

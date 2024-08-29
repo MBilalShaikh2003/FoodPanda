@@ -10,7 +10,7 @@ import Faisalabad from '/public/Faisalabad.png'
 import Office from '/public/office.png'
 
 
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 const Body = () => {
     return (
@@ -81,7 +81,14 @@ const Body = () => {
                     <CitiesCard src={Islamabad} alt="Islamabad City" cityName="Islamabad" />
                     <CitiesCard src={Lahore} alt="Lahore City" cityName="Lahore" />
                     <CitiesCard src={Faisalabad} alt="Faisalabad City" cityName="Faisalabad" />
-
+                    <CitiesCard src={karachi} alt="Karachi City" cityName="Karachi" />
+                    <CitiesCard src={Islamabad} alt="Islamabad City" cityName="Islamabad" />
+                    <CitiesCard src={Lahore} alt="Lahore City" cityName="Lahore" />
+                    <CitiesCard src={Faisalabad} alt="Faisalabad City" cityName="Faisalabad" />
+                    <CitiesCard src={karachi} alt="Karachi City" cityName="Karachi" />
+                    <CitiesCard src={Islamabad} alt="Islamabad City" cityName="Islamabad" />
+                    <CitiesCard src={Lahore} alt="Lahore City" cityName="Lahore" />
+                    <CitiesCard src={Faisalabad} alt="Faisalabad City" cityName="Faisalabad" />
                 </div>
             </div>
 
