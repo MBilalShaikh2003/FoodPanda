@@ -3,6 +3,7 @@ import foodpandalogo from '/public/logo.png'
 import cart from '/public/shopping-bag.png'
 import Image from "next/image"
 
+
 const Header = () => {
   return (
     <div>
