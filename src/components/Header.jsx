@@ -2,6 +2,7 @@ import React from 'react'
 import foodpandalogo from '/public/logo.png'
 import cart from '/public/shopping-bag.png'
 import Image from "next/image"
+import Link from 'next/link'
 
 
 const Header = () => {
@@ -26,12 +27,15 @@ const Header = () => {
                 <a href="/cart" className="hover:underline">Cart</a>
             </div> */}
                     <div className="flex space-x-4">
-            <button className="px-4 py-2   bg-[#ffff] border border-black text-black font-semibold rounded-md transform transition-transform duration-200 hover:scale-105">
+            <Link href={"/Signin"}> <button className="px-4 py-2   bg-[#ffff] border border-black text-black font-semibold rounded-md transform transition-transform duration-200 hover:scale-105">
                 Log In
-            </button>
+            </button></Link>
+            <Link href={"/Signup"}>
+            
             <button className="px-4 py-2 bg-[#ff2b85] text-white font-semibold rounded-md transform transition-transform duration-200 hover:scale-105">
                 Sign Up
             </button>
+            </Link>
             <div>
             <button className="font-semibold rounded-md transform transition-transform duration-200 hover:scale-105"><Image src={cart} alt="Foodpanda Logo" className="h-10 w-10" /></button>
             </div>
