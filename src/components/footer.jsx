@@ -6,6 +6,8 @@ import googleplay from '/public/googleplay1.png'
 import gallery from '/public/gallery.png'
 import foodpandalogo from '/public/logo.png'
 import hero from '/public/hero.jpg'
+import facebook from '/public/facebook.png'
+import instagram from '/public/instagram.png'
 import Image from 'next/image'
 const footer = () => {
   return (
@@ -310,29 +312,34 @@ const footer = () => {
       <hr class="border-t border-gray-300 my-4" />
 
       <div className='flex justify-between items-center p-4'>
-  
-  <div className="flex items-center space-x-4">
-    <div className="flex items-center">
-      <Image src={foodpandalogo} alt="Foodpanda Logo" className="h-10 w-10" />
-      <span className="text-[#ff2b85] text-[24px]">foodpanda</span>
-    </div>
-    <div>
-      <p>|</p>
-    </div>
-    <div className="flex items-center">
-      <Image src={hero} alt="Hero Logo" className="h-36 w-24" />
-    </div>
-  </div>
-  
-  
-  <div className='flex items-center gap-4'>
-    <div>fa</div>
-    <div>twitter</div>
-  </div>
-</div>
+
+        <div className="flex items-center space-x-4">
+          <div className="flex items-center">
+            <Image src={foodpandalogo} alt="Foodpanda Logo" className="h-10 w-10" />
+            <span className="text-[#ff2b85] text-[24px]">foodpanda</span>
+          </div>
+          <div>
+            <p>|</p>
+          </div>
+          <div className="flex items-center">
+            <Image src={hero} alt="Hero Logo" className="h-36 w-24" />
+          </div>
+        </div>
+
+
+        <div className="flex items-center gap-4">
+          <div className="flex items-center justify-center h-10 w-10 bg-black rounded-full">
+            <Image src={facebook} alt="Facebook Logo" className="h-8 w-8" />
+          </div>
+          <div className="flex items-center justify-center h-10 w-10 bg-white black-rounded-full">
+            <Image src={instagram} alt="Instagram Logo" className="h-8 w-8" />
+          </div>
+        </div>
+      </div>
 
     </>
-  )
+
+  );
 }
 
-export default footer
+export default footer;
