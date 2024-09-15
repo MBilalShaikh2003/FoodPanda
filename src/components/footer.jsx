@@ -9,7 +9,7 @@ import hero from '/public/hero.jpg'
 import facebook from '/public/facebook.png'
 import instagram from '/public/instagram.png'
 import Image from 'next/image'
-const footer = () => {
+const Footer = () => {
   return (
     <>
       <h1 className="text-center text-3xl font-bold text-gray-800 mb-6 mt-4">
@@ -29,7 +29,7 @@ const footer = () => {
               className="mr-0 md:mr-4 mb-4 md:mb-0"
             />
             <p className="text-[#ffff] text-center md:text-left">
-              It's all at your fingertips – the restaurants and <br /> shops you love.
+              It&apos;s all at your fingertips – the restaurants and <br /> shops you love.
               Find the right food and <br /> groceries to suit your mood, and make
               the <br /> first bite last. Go ahead, download us.
             </p>
@@ -93,7 +93,7 @@ const footer = () => {
       </p>
 
       <h1 className="text-[black] font-bold mt-8 text-center md:text-left text-[29px]  ml-8" >
-        What's new ? </h1>
+        What&apos;s new ? </h1>
       <p className="text-[#333333] text-center md:text-left ml-8 mt-3">
         <span className="text-pink-500">✓</span> Wide variety of restaurants and shops, an abundance of cuisines & products.<br />
         <span className="text-pink-500">✓</span> High quality delivery service.<br />
@@ -149,7 +149,7 @@ const footer = () => {
 
       <p className="text-[#333333] text-center md:text-left ml-8 mt-3">
         |
-        Yes, foodpanda Pakistan allows you to place an order for someone else. During checkout, just update the name and delivery address of the person you're <br /> ordering for. Please keep in mind that if the delivery details are not correct and the order cannot be delivered, we won't be able to process a refund.
+        Yes, foodpanda Pakistan allows you to place an order for someone else. During checkout, just update the name and delivery address of the person you&apos;re <br /> ordering for. Please keep in mind that if the delivery details are not correct and the order cannot be delivered, we won&apos;t be able to process a refund.
       </p>
 
 
@@ -159,11 +159,11 @@ const footer = () => {
       <p className="text-[#333333] text-center md:text-left ml-8 mt-3">
         There are hundreds of restaurants on foodpanda Pakistan that let you order online. For example,
         <a href="https://www.kfcpakistan.com/" target='_blank' className="text-pink-500 hover:underline">KFC</a>,
-        <a href="https://www.mcdonalds.com.pk/" target='_blank' className="text-pink-500 hover:underline">McDonald's</a>,
+        <a href="https://www.mcdonalds.com.pk/" target='_blank' className="text-pink-500 hover:underline">McDonald&apos;s</a>,
         <a href="https://www.pizzahut.com.pk/" target='_blank' className="text-pink-500 hover:underline">Pizza Hut</a>,
         <a href="https://www.optp.biz/" target='_blank' className="text-pink-500 hover:underline">OPTP</a>,
-        <a href="https://www.hardeespakistan.com/" target='_blank' className="text-pink-500 hover:underline">Hardee's</a>,
-        <a href="https://www.dominos.com.pk/" target='_blank' className="text-pink-500 hover:underline">Domino's</a>,<br />
+        <a href="https://www.hardeespakistan.com/" target='_blank' className="text-pink-500 hover:underline">Hardee&apos;s</a>,
+        <a href="https://www.dominos.com.pk/" target='_blank' className="text-pink-500 hover:underline">Domino&apos;s</a>,<br />
         <a href="https://www.kababjees.com.pk/" target='_blank' className="text-pink-500 hover:underline">Kababjees</a>
         and many-many more! In order to check all the restaurants near you that deliver, just type in your address and discover all the available places.
       </p>
@@ -174,7 +174,7 @@ const footer = () => {
 
       <p className="text-[#333333] text-center md:text-left ml-8 mt-3">
         |
-        Yes, foodpanda Pakistan allows you to place an order for someone else. During checkout, just update the name and delivery address of the person you're <br /> ordering for. Please keep in mind that if the delivery details are not correct and the order cannot be delivered, we won't be able to process a refund.
+        Yes, foodpanda Pakistan allows you to place an order for someone else. During checkout, just update the name and delivery address of the person you&apos;re <br /> ordering for. Please keep in mind that if the delivery details are not correct and the order cannot be delivered, we won&apos;t be able to process a refund.
       </p>
 
       <h1 className="text-[black] font-bold mt-8 text-center md:text-left text-[20px]  ml-8" >
@@ -342,4 +342,4 @@ const footer = () => {
   );
 }
 
-export default footer;
+export default Footer;

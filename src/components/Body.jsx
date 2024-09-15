@@ -3,7 +3,7 @@ import bigpanda from '/public/bigpanda.png';
 import vendor from '/public/vendor.png';
 
 import CitiesCard from '@/components/CitiesCard';
-import karachi from '/public/karachi.png'
+import karachi from '/public/Karachi.png'
 import Lahore from '/public/Lahore.png'
 import Islamabad from '/public/Islamabad.png'
 import Faisalabad from '/public/Faisalabad.png'
