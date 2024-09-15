@@ -9,7 +9,7 @@ import hero from '/public/hero.jpg'
 import facebook from '/public/facebook.png'
 import instagram from '/public/instagram.png'
 import Image from 'next/image'
-const footer = () => {
+const Footer = () => {
   return (
     <>
       <h1 className="text-center text-3xl font-bold text-gray-800 mb-6 mt-4">
@@ -342,4 +342,4 @@ const footer = () => {
   );
 }
 
-export default footer;
+export default Footer;
