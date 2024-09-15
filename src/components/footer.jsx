@@ -29,7 +29,7 @@ const Footer = () => {
               className="mr-0 md:mr-4 mb-4 md:mb-0"
             />
             <p className="text-[#ffff] text-center md:text-left">
-              It's all at your fingertips – the restaurants and <br /> shops you love.
+              Its all at your fingertips – the restaurants and <br /> shops you love.
               Find the right food and <br /> groceries to suit your mood, and make
               the <br /> first bite last. Go ahead, download us.
             </p>
