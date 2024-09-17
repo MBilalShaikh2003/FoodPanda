@@ -88,11 +88,42 @@ const RestAuthForm = () => {
             <hr />
             <h1 className="text-2xl py-12 font-bold">Your Details</h1>
             <div className="flex justify-between">
-              <input type="text" className="border-gray-300 py-2 px-3 border rounded-lg w-[45%]" placeholder="Postal Code"/>
-              <select name="" id="" className="border-gray-300 py-2 px-3 border rounded-lg w-[45%]">
-                <option value="selected">City</option>
-              </select>
+              <input type="text" className="border-gray-300 py-2 px-3 border rounded-lg w-[45%]" placeholder="First Name"/>
+              <input type="text" className="border-gray-300 py-2 px-3 border rounded-lg w-[45%]" placeholder="Last Name"/>
             </div>
+            <input type="text" placeholder="Corporate Email" className="border-gray-300 py-2 px-3 border rounded-lg"/>
+            <div className="flex justify-between">
+              <select name="" id="" className="border-gray-300 py-2 px-3 border rounded-lg  w-[15%]">
+                <option value="selected"><sub>PK</sub> +92</option>
+                <option value=""><sub>PK</sub> +92</option>
+                <option value=""><sub>IN</sub> +91</option>
+                <option value=""><sub>PK</sub> +92</option>
+                <option value=""><sub>PK</sub> +92</option>
+                <option value=""><sub>PK</sub> +92</option>
+                <option value=""><sub>PK</sub> +92</option>
+                <option value=""><sub>PK</sub> +92</option>
+                <option value=""><sub>PK</sub> +92</option>
+                <option value=""><sub>PK</sub> +92</option>
+                <option value=""><sub>PK</sub> +92</option>
+                <option value=""><sub>PK</sub> +92</option>
+                <option value=""><sub>PK</sub> +92</option>
+                <option value=""><sub>PK</sub> +92</option>
+                <option value=""><sub>PK</sub> +92</option>
+                <option value=""><sub>PK</sub> +92</option>
+                <option value=""><sub>PK</sub> +92</option>
+              </select>
+              <input type="number" placeholder="Phone" className="border-gray-300 py-2 px-3 border rounded-lg w-[80%]" name="number" />
+            </div>
+
+            <select name="" id="" className="border-gray-300 py-2 px-3 border rounded-lg">
+              <option value="selected">Reason for showing us </option>
+              <option value="">Reason for choosing us </option>
+              <option value="">Employee Meal Programs (e.g: Overtime, Weekly or Monthly Allowance)  </option>
+              <option value="">Events, Catering & Large orders </option>
+              <option value="">Rewards, Recognition & Gifts </option>
+              <option value="">Pantry % Suppliees </option>
+            </select>
+       
         </form>
         </div>
       </div>

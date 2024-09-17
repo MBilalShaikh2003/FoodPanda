@@ -3,10 +3,13 @@ import bigpanda from '/public/bigpanda.png';
 import vendor from '/public/vendor.png';
 
 import CitiesCard from '@/components/CitiesCard';
-import karachi from '/public/Karachi.png'
+import Karachi from '/public/Karachi.png'
 import Lahore from '/public/Lahore.png'
 import Islamabad from '/public/Islamabad.png'
 import Faisalabad from '/public/Faisalabad.png'
+import Rawalpindi from '/public/Rawalpindi.jpg'
+import Abbottabad from '/public/Abbottabad.png'
+
 import Office from '/public/office.png'
 
 
@@ -73,19 +76,19 @@ const Body = () => {
 
             <div className="p-4 bg-gray-100">
                 <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
-                    <CitiesCard src={karachi} alt="Karachi City" cityName="Karachi" />
+                    <CitiesCard src={Karachi} alt="Karachi City" cityName="Karachi" />
                     <CitiesCard src={Islamabad} alt="Islamabad City" cityName="Islamabad" />
                     <CitiesCard src={Lahore} alt="Lahore City" cityName="Lahore" />
                     <CitiesCard src={Faisalabad} alt="Faisalabad City" cityName="Faisalabad" />
-                    <CitiesCard src={karachi} alt="Karachi City" cityName="Karachi" />
+                    <CitiesCard src={Rawalpindi} alt="Karachi City" cityName="Rawalpindi" />
+                    <CitiesCard src={Abbottabad} alt="Islamabad City" cityName="Abbottabad" />
+                    <CitiesCard src={Lahore} alt="Lahore City" cityName="Lahore" />
+                    <CitiesCard src={Faisalabad} alt="Faisalabad City" cityName="Faisalabad" />
+                    <CitiesCard src={Karachi} alt="Karachi City" cityName="Karachi" />
                     <CitiesCard src={Islamabad} alt="Islamabad City" cityName="Islamabad" />
                     <CitiesCard src={Lahore} alt="Lahore City" cityName="Lahore" />
                     <CitiesCard src={Faisalabad} alt="Faisalabad City" cityName="Faisalabad" />
-                    <CitiesCard src={karachi} alt="Karachi City" cityName="Karachi" />
-                    <CitiesCard src={Islamabad} alt="Islamabad City" cityName="Islamabad" />
-                    <CitiesCard src={Lahore} alt="Lahore City" cityName="Lahore" />
-                    <CitiesCard src={Faisalabad} alt="Faisalabad City" cityName="Faisalabad" />
-                    <CitiesCard src={karachi} alt="Karachi City" cityName="Karachi" />
+                    <CitiesCard src={Karachi} alt="Karachi City" cityName="Karachi" />
                     <CitiesCard src={Islamabad} alt="Islamabad City" cityName="Islamabad" />
                     <CitiesCard src={Lahore} alt="Lahore City" cityName="Lahore" />
                     <CitiesCard src={Faisalabad} alt="Faisalabad City" cityName="Faisalabad" />
