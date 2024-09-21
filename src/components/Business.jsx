@@ -147,6 +147,10 @@ const Business = () => {
           <GiKnifeFork className=""/>
           <p className="font-bold text-[20px]">Save time and money with foodpanda for business allowances</p>
           </div>
+<<<<<<< HEAD
+=======
+          <div></div>
+>>>>>>> 9546cb45d27b1d4abc88b4774feea06e3ca6bf11
         </div>
       </div>
 
