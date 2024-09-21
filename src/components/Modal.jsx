@@ -56,9 +56,16 @@ const Modal = ({ showModal, setShowModal }) => {
 
   return (
     <>
-      {showModal && (
+        {showModal && (
         <div className="fixed inset-0 flex items-center justify-center z-50 bg-gray-800 bg-opacity-75">
-          <div className="bg-white rounded-lg shadow-lg p-6 max-w-md w-full">
+          <div className="relative bg-white rounded-lg shadow-lg p-6 max-w-md w-full">
+            <button
+              onClick={() => setShowModal(false)}
+              className="absolute top-3 right-3 text-offwhite-500 hover:text-red-900 bg-gray-200 rounded-full h-8 w-8 flex items-center justify-center"
+            >
+              &#10005; 
+            </button>
+
             <h2 className="text-xl font-bold mb-4">
               {isSignedUp ? 'Log in' : 'Sign up'}
             </h2>
