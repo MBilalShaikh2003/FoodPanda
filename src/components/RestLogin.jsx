@@ -4,7 +4,7 @@ const RestLogin = () => {
   return (
     <div>
 
-      login page for restaurant
+      
       
     </div>
   )
