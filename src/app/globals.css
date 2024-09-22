@@ -3,3 +3,30 @@
 @tailwind utilities;
 
 
+
+
+.btnBusAuth:hover{
+    background-color: rgb(212, 212, 212);
+    border-radius:8px
+
+}
+
+input{
+    border: 1px solid rgb(224, 224, 224);
+}
+.btnSign:hover{
+    background-color: rgb(209, 0, 115);
+}
+
+
+.social{
+    color: white;
+}
+
+@media only screen and (min-width: 640px) and (max-width:767px) {
+    .media{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
