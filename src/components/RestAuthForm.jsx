@@ -39,7 +39,7 @@ const RestAuthForm = () => {
           {isOpen ? <X /> : <Menu />}
         </button>
         {isOpen && (
-          <div className="flex basis-full flex-col items center justify-center">
+          <div className="flex basis-full flex-wrap flex-col items-center justify-center">
             <Link href={"/restaurant-login"}> Login to company portal</Link>
           </div>
         )}
